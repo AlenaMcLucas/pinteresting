@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
 # Alena added bootstrap-sass to gems
 gem 'bootstrap-sass'
