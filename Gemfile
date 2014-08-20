@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.2'
 
-# Alena added bootstrap-sass to gems
 gem 'bootstrap-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -22,6 +21,8 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
+
+gem 'devise', '~> 3.3.0'
 
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
