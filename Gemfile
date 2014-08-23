@@ -26,6 +26,8 @@ gem 'devise', '~> 3.3.0'
 
 gem 'paperclip', '~> 4.1'
 
+gem 'aws-sdk', '~> 1.51.0'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'	
