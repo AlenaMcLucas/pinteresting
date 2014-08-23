@@ -1,11 +1,8 @@
 <div class="jumbotron center">
 	<h1>Yay titles for everyone!</h1>
 	<p>Give me 478435748707 dollars.</p>
-	<% if user_signed_in? %>
-	<% else %>
 		<p>
 			<%= link_to "Log In", new_user_session_path, class: "btn btn-default btn-lg" %>
 			<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
 		</p>
-	<% end %>
 </div>
